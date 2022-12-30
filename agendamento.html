@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="author"content="Luca Samuel">
+    <meta name="keywords" content="café,Programação,javascript,HTML,CSS,Computação"><!--Palavras chaves para ajudar na buscana internet-->
+    <meta name="descripton" content="Tenha uma vida que voce sempre quis, de maneira simples e descomplicada."> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body >
+    <header>
+        <img src="img/banner_codecoffe.png" alt="imagem com com uma xicara de café e codigos" >
+    </header>
+
+    <nav>
+        <a class="a-menu" href="index.html" >  HOME  </a> <!--Tag da espacçamento entre os textos se css-->
+        <a class="a-menu" href="#" >  CAFÉ  </a>
+        <a class="a-menu" href="#" >  CODIGOS </a>
+        <a class="a-menu" href="#" >  MAPAS  </a>
+        <a class="a-menu" href="#pagina-beneficios" >  BENEFICIOS</a>
+        <a class="a-menu" href="agendamento.html" >  CONTATO</a>
+    </nav>
+
+   
+    <section>
+        <h1 >Agendamentos</h1>
+        
+        <p class="p-form">  Agende uma consultoria para falarmos sobre seu projeto,grátis!! </p> <!--Alinha o texto diacordo com a pagina-->
+         
+   
+
+        <form name="" method="post" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome-completo"  placeholder="Digite Seu Nome Completo" required>
+            
+
+            <label for="email">E-Mail: </label>
+            <input id="email" type="email " name="email"  placeholder="Digite seu E-Mail"required>
+
+            
+            <label for="celular">Celular: </label>
+            <input id="celular" type="tel " name="celular"  placeholder="(99)99999-9999"required>
+
+
+            <fieldset>
+                <legend>Nivel de Conhecimento</legend>
+                <input type="radio" name="conhecimento" value="teste">
+                <label for="Teste">Iniante</label>
+    
+                <input type="radio" name="conhecimento" value="prototipação">
+                <label for="Prototipação">Basico</label>
+    
+                <input type="radio" name="conhecimento" value="desenvolvimento">
+                <label for="Desenvolvimento">Intermediario</label>
+
+                <input type="radio" name="conhecimento" value="desenvolvimento">
+                <label for="Desenvolvimento">Avançado</label>
+            </fieldset>
+
+                <fieldset>
+                <legend>Atividades</legend>
+                <input type="radio" name="atividade" value="teste">
+                <label for="Teste">Teste</label>
+
+                <input type="radio" name="atividade" value="prototipação">
+                <label for="Prototipação">Prototipação</label>
+
+                <input type="radio" name="atividade" value="desenvolvimento">
+                <label for="Desenvolvimento">Desenvolvimento</label>
+            </fieldset>
+           
+           
+            <div class="momento">
+                <div>
+                <label for="data">Data</label>
+                <input  id="data"type="date" name="data"  placeholder="">
+                </div>
+                <div>
+                <label for="time">Horario</label>
+                <input  id="time"type="Time" name="time"  placeholder="">
+                </div>
+            </div>
+            
+          
+
+
+      
+
+         <label for="data">Observação</label>
+            <textarea name="observacao" id="observacao" rows="7" placeholder="Descreva um pouco sobre o seu projeto, para quando formos conversar ja tenha propostas para voce."></textarea>
+           
+         <div class="momento">
+             <div>
+                 <input type="submit" name="Botao-agendar" value="AGENDAR">
+            </div>
+            <div>
+                <input type="reset" name="Botao-cancelar"  value="CANCELAR"> 
+           </div>
+        </div>
+
+       
+        </form>
+
+</section>
+    
+<footer>
+    <p  >Desenvolvido por <a href="#" target="_blank">Luca Samuel </a> - 2022</p>
+</footer>
+
+</body>
+</html>
